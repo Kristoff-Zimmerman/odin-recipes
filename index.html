@@ -7,22 +7,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
     <link rel="stylesheet" href="./styles/style.css">
+
+
+
 </head>
+
+<!-- w3schools.com/howto/howto_css_team.asp -->
 
 <body>
 
-    <nav>
-        <ul class="navbar">
-            <li class="dropdown"><a class="dropbtn" href="index.html">Odin Recipes</a>
-                <div class="dropdown-content">
-                    <a class="rlink" href="./recipes/pico.html">Pico de gallo</a>
-                    <a class="rlink" href="./recipes/bruschetta.html">Bruschetta</a>
-                    <a href="./recipes/carnitas.html">Carnitas</a>
-                </div>
-            </li>
-        </ul>
-    </nav>
+    <h1>Odin Recipes</h1>
 
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="./images/bruschetta.jpg" alt="bruschetta" style="width: 100%">
+                <div class="container">
+                    <h2>Bruschetta</h2>
+                    <p class="desc">Basiclly Italian salsa</p>
+                    <p>Prep Time: 20 minutes</p>
+                    <p>Cook Time: 5 minutes</p>
+                    <a href="./recipes/bruschetta.html"><p><button class="button">Recipe</button></p></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="./images/carnitas.jpg" alt="carnitas" style="width: 100%">
+                    <div class="container">
+                        <h2>Carnitas</h2>
+                        <p class="desc">Mexican pulled pork</p>
+                        <p>Prep Time: 30 minutes</p>
+                        <p>Cook Time: 4-9 hours</p>
+                        <a href="./recipes/carnitas.html"><p><button class="button">Recipe</button></p></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <img src="./images/pico.jpg" alt="pico de gallo" style="width: 100%">
+                        <div class="container">
+                            <h2>Pico de gallo</h2>
+                            <p class="desc">Fresh Mexican salsa</p>
+                            <p>Prep Time: 25 minutes</p>
+                            <p>Cook Time: 0 minutes</p>
+                            <a href="./recipes/pico.html"><p><button class="button">Recipe</button></p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 </body>
 
 </html>
