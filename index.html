@@ -5,64 +5,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Recipes</title>
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    
-
-
+    <title>Odin Recipes</title>
 </head>
 
-<!-- w3schools.com/howto/howto_css_team.asp -->
-
 <body>
+    <main>
 
-    <h1>Odin Recipes</h1>
+        <section class="hero">
+            <h1><span>Odin Recipes</span></h1>
+            <article>
+                <p><span>Way more than just "Classic American".</span></p>
+                <a href="#recipes">Browse Recipes</a>
+            </article>
+        </section>
 
-    <div class="row">
-        <div class="column">
-            <div class="card">
-                <img src="./images/bruschetta.jpg" alt="bruschetta" style="width: 100%">
-                <div class="container">
-                    <h2>Bruschetta</h2>
-                    <p class="desc">Basically Italian salsa</p>
-                    <p>Prep Time: 20 minutes</p>
-                    <p>Cook Time: 5 minutes</p>
-                    <a href="./recipes/bruschetta.html"><p><button class="button">Recipe</button></p></a>
-                </div>
-            </div>
-        </div>
+        <section class="recipes" id="recipes">
+            <ul>
 
-        <div class="row">
-            <div class="column">
-                <div class="card">
-                    <img src="./images/carnitas.jpg" alt="carnitas" style="width: 100%">
-                    <div class="container">
-                        <h2>Carnitas</h2>
-                        <p class="desc">Mexican pulled pork</p>
-                        <p>Prep Time: 30 minutes</p>
-                        <p>Cook Time: 4-9 hours</p>
-                        <a href="./recipes/carnitas.html"><p><button class="button">Recipe</button></p></a>
-                    </div>
-                </div>
-            </div>
+                <li>
+                    <figure>
+                        <img src="./images/bruschetta-small.jpg" alt="bruschetta">
+                        <figcaption>
+                            <h3>Bruschetta</h3>
+                        </figcaption>
+                    </figure>
+                    <p>Grilled bread, rubbed with garlic, drizzled with olive oil, and topped with tomatoes and herbs.
+                        Usually served as an appetizer.</p>
+                    <a href="./recipes/bruschetta.html">See Recipe</a>
+                </li>
 
-            <div class="row">
-                <div class="column">
-                    <div class="card">
-                        <img src="./images/pico.jpg" alt="pico de gallo" style="width: 100%">
-                        <div class="container">
-                            <h2>Pico de gallo</h2>
-                            <p class="desc">Fresh Mexican salsa</p>
-                            <p>Prep Time: 25 minutes</p>
-                            <p>Cook Time: 0 minutes</p>
-                            <a href="./recipes/pico.html"><p><button class="button">Recipe</button></p></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                <li>
+                    <figure>
+                        <img src="./images/pico-small.jpg" alt="pico de gallo">
+                        <figcaption>
+                            <h3>Pico de gallo</h3>
+                        </figcaption>
+                    </figure>
+                    <p>A Mexican salsa. Made with fresh ingrediants. It can be used to add crisp bold taste to tacos and
+                        nachos.</p>
+                    <a href="./recipes/pico.html">See Recipe</a>
+                </li>
+
+                <li>
+                    <figure>
+                        <img src="./images/carnitas-small.jpg" alt="carnitas">
+                        <figcaption>
+                            <h3>Carnitas</h3>
+                        </figcaption>
+                    </figure>
+                    <p>Slow cooked pulled pork that is then crisped in it's own juices in a cast iron skillet. Perfect
+                        for tacos.</p>
+                    <a href="./recipes/carnitas.html">See Recipe</a>
+                </li>
+
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2022. Made with love for Gwen.</p>
+    </footer>
+
+
 </body>
 
 </html>
