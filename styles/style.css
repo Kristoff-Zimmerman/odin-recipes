@@ -23,7 +23,7 @@ html {
 }
 
 a {
-    background-color: goldenrod;
+    background-color: darkolivegreen;
     text-decoration: none;
     color: white;
     border-radius: .25rem;
@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-    opacity: .8;
+    background-color: olive;
 }
 
 .hero {
@@ -72,8 +72,8 @@ a:hover {
 
 .hero>article>p {
     padding: 1rem;
-    font-size: 2rem;
-    font-weight: bolder;
+    font-size: 1.5rem;
+
 }
 
 .hero>article>p>span {
